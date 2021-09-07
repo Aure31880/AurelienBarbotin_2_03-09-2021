@@ -12,29 +12,41 @@
 
 <body>
 
-    <div class="container">
-        <!-- NAV BAR -->
-        <header class="spaceBetween">
-            <h1><img src="./public/images/Reservia@3x.png" class="main-logo" alt="Logo Reservia"></h1>
-            <div class="nav-bar">
-                <a href="./index.html">Hébergements</a>
-                <a href="#">Activités</a>
-                <a href="">S'inscrire</a>
+    <!-- NAV BAR -->
+    <header>
+        <nav class="nav-padding nav">
+            <div class="space-between">
+                <div>
+                    <img src="./public/images/Reservia@3x.png" class="main-logo" alt="Logo Reservia">
+                </div>
+
+                <div class="nav-bar center-content">
+                    <div class="top-hover-nav center-content">
+                        <a href="#" class="nav-focus">Hébergements</a>
+                    </div>
+                    <div class="top-hover-nav center-content">
+                        <a href="#" class="nav-focus">Activités</a>
+                    </div>
+                </div>
+
+                <div class="top-hover-nav  center-content">
+                    <a href="#" class="nav-focus">S'inscrire</a>
+                </div>
             </div>
-        </header>
+        </nav>
+    </header>
 
-
+    <div class="container">
         <!-- SECTION SEARCH -->
         <section>
-
             <div class="searchTitle">
                 <h2>Trouvez votre hébergement pour des vacances de rêve</h2>
             </div>
             <br>
             <p>En plein centre ville ou en pleine nature</p>
 
-            <div class="input paddingTop">
-                <div class="backColor centerIcon iconSize">
+            <div class="input padding-top">
+                <div class="back-color-grey center-content iconSize">
                     <i class="fas fa-map-marker-alt"></i>
                 </div>
                 <input type="search" class="searchField">
@@ -42,81 +54,222 @@
             </div>
 
             <!-- FILTERS -->
-            <div class="filter paddingTop">
+            <div class="filter padding-top">
                 <div class="titleFilter">
                     <h3>Filtres</h3>
                 </div>
-                <div class="filterBorder centerIcon ">
-                    <i class="fas fa-money-bill-wave filterIcon centerIcon "></i>
-                    <div class="flexText">Économique</div>
+                <div class="space-around">
+                    <div class="space-between filterBorder">
+                        <i class="fas fa-money-bill-wave filterIcon center-content"></i>
+                        <div class="flexText center-content">Économique</div>
+                    </div>
+                    <div class=" space-between filterBorder ">
+                        <i class="fas fa-child filterIcon center-content"></i>
+                        <div class="flexText center-content">Familial</div>
+                    </div>
                 </div>
-                <div class="filterBorder centerIcon"><i class="fas fa-child filterIcon centerIcon"></i>
-                    <div class="flexText">Familial</div>
-                </div>
-                <div class="filterBorder centerIcon"><i class="fas fa-heart filterIcon"></i>
-                    <div class="flexText">Romantique</div>
-                </div>
-                <div class="filterBorder centerIcon"><i class="fas fa-dog filterIcon"></i>
-                    <div class="flexText">Animaux autorisés</div>
+                <div class="space-around">
+                    <div class="space-between filterBorder ">
+                        <i class="fas fa-heart filterIcon center-content"></i>
+                        <div class="flexText center-content">Romantique</div>
+                    </div>
+                    <div class="space-between filterBorder ">
+                        <i class="fas fa-dog filterIcon center-content"></i>
+                        <div class="flexText center-content">Animaux autorisés</div>
+                    </div>
                 </div>
             </div>
 
-            <div class="info paddingTop">
-                <div class="iconInfo iconInfoSize">
+            <div class="info padding-top">
+                <div class="iconInfo center-content">
                     <i class="fas fa-info"></i>
                 </div>
                 <p>Plus de 500 logements sont disponibles dans cette ville</p>
             </div>
-
         </section>
 
-        <!-- SECTION ACCOMODATIONS -->
+        <!-- MAIN CONTENT & ASIDE -->
         <section>
-            <div class="accommodations ">
-                <div class="paddingTitle">
-                    <h3>Hébergements à Marseille</h3>
+            <div class="main-aside-section space-around">
+                <div class="main-content back-color-grey">
+                    <div class="main-title font-b">
+                        <h2>Hébergements à Marseille</h2>
+                    </div>
+                    <div class="list-item">
+                        <a href="">
+                            <div class="item grow">
+                                <img src="./public/images/medium/marcus-loke-WQJvWU_HZFo-unsplash.jpg" class="img-item"
+                                    alt="">
+                                <div class="details-item">
+                                    <h4>Test Title</h4>
+                                    <p>Nuit à partir de 25€</p>
+                                    <div class="rate">
+                                        <i class="fas fa-star colorBleu"></i>
+                                        <i class="fas fa-star colorBleu"></i>
+                                        <i class="fas fa-star colorBleu"></i>
+                                        <i class="fas fa-star colorBleu"></i>
+                                        <i class="fas fa-star colorGris"></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                        <a href="">
+                            <div class="item grow">
+                                <img src="./public/images/medium/marcus-loke-WQJvWU_HZFo-unsplash.jpg" class="img-item"
+                                    alt="">
+                                <div class="details-item">
+                                    <h4>Test Title</h4>
+                                    <p>Nuit à partir de 25€</p>
+                                    <div class="rate">
+                                        <i class="fas fa-star colorBleu"></i>
+                                        <i class="fas fa-star colorBleu"></i>
+                                        <i class="fas fa-star colorBleu"></i>
+                                        <i class="fas fa-star colorBleu"></i>
+                                        <i class="fas fa-star colorGris"></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                        <a href="">
+                            <div class="item grow">
+                                <img src="./public/images/medium/marcus-loke-WQJvWU_HZFo-unsplash.jpg" class="img-item"
+                                    alt="">
+                                <div class="details-item">
+                                    <h4>Test Title</h4>
+                                    <p>Nuit à partir de 25€</p>
+                                    <div class="rate">
+                                        <i class="fas fa-star colorBleu"></i>
+                                        <i class="fas fa-star colorBleu"></i>
+                                        <i class="fas fa-star colorBleu"></i>
+                                        <i class="fas fa-star colorBleu"></i>
+                                        <i class="fas fa-star colorGris"></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+
+                    <div class="list-item">
+                        <a href="">
+                            <div class="item grow">
+                                <img src="./public/images/medium/marcus-loke-WQJvWU_HZFo-unsplash.jpg" class="img-item"
+                                    alt="">
+                                <div class="details-item">
+                                    <h4>Test Title</h4>
+                                    <p>Nuit à partir de 25€</p>
+                                    <div class="rate">
+                                        <i class="fas fa-star colorBleu"></i>
+                                        <i class="fas fa-star colorBleu"></i>
+                                        <i class="fas fa-star colorBleu"></i>
+                                        <i class="fas fa-star colorBleu"></i>
+                                        <i class="fas fa-star colorGris"></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                        <a href="">
+                            <div class="item grow">
+                                <img src="./public/images/medium/marcus-loke-WQJvWU_HZFo-unsplash.jpg" class="img-item"
+                                    alt="">
+                                <div class="details-item">
+                                    <h4>Test Title</h4>
+                                    <p>Nuit à partir de 25€</p>
+                                    <div class="rate">
+                                        <i class="fas fa-star colorBleu"></i>
+                                        <i class="fas fa-star colorBleu"></i>
+                                        <i class="fas fa-star colorBleu"></i>
+                                        <i class="fas fa-star colorBleu"></i>
+                                        <i class="fas fa-star colorGris"></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                        <a href="">
+                            <div class="item grow">
+                                <img src="./public/images/medium/marcus-loke-WQJvWU_HZFo-unsplash.jpg" class="img-item"
+                                    alt="">
+                                <div class="details-item">
+                                    <h4>Test Title</h4>
+                                    <p>Nuit à partir de 25€</p>
+                                    <div class="rate">
+                                        <i class="fas fa-star colorBleu"></i>
+                                        <i class="fas fa-star colorBleu"></i>
+                                        <i class="fas fa-star colorBleu"></i>
+                                        <i class="fas fa-star colorBleu"></i>
+                                        <i class="fas fa-star colorGris"></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <a href="" class="link-more">Afficher plus</a>
+                </div>
+
+                <!-- ASIDE -->
+                <div class="aside back-color-grey">
+                    <div class="aside-title font-b space-between">
+                        <h3>Les plus populaires</h3>
+                        <div class="icon">
+                            <i class="fas fa-chart-line"></i>
+                        </div>
+                    </div>
+                    <div class="list-aside">
+                        <a href="">
+                            <div class="item-aside grow">
+                                <img src="./public/images/medium/marcus-loke-WQJvWU_HZFo-unsplash.jpg" class="img-aside"
+                                    alt="">
+                                <div class="details-aside">
+                                    <h4>Test Title</h4>
+                                    <p>Nuit à partir de 25€</p>
+                                    <div class="rate">
+                                        <i class="fas fa-star colorBleu"></i>
+                                        <i class="fas fa-star colorBleu"></i>
+                                        <i class="fas fa-star colorBleu"></i>
+                                        <i class="fas fa-star colorBleu"></i>
+                                        <i class="fas fa-star colorGris"></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                        <a href="">
+                            <div class="item-aside grow">
+                                <img src="./public/images/medium/marcus-loke-WQJvWU_HZFo-unsplash.jpg" class="img-aside"
+                                    alt="">
+                                <div class="details-aside">
+                                    <h4>Test Title</h4>
+                                    <p>Nuit à partir de 25€</p>
+                                    <div class="rate">
+                                        <i class="fas fa-star colorBleu"></i>
+                                        <i class="fas fa-star colorBleu"></i>
+                                        <i class="fas fa-star colorBleu"></i>
+                                        <i class="fas fa-star colorBleu"></i>
+                                        <i class="fas fa-star colorGris"></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                        <a href="">
+                            <div class="item-aside grow">
+                                <img src="./public/images/medium/marcus-loke-WQJvWU_HZFo-unsplash.jpg" class="img-aside"
+                                    alt="">
+                                <div class="details-aside">
+                                    <h4>Test Title</h4>
+                                    <p>Nuit à partir de 25€</p>
+                                    <div class="rate">
+                                        <i class="fas fa-star colorBleu"></i>
+                                        <i class="fas fa-star colorBleu"></i>
+                                        <i class="fas fa-star colorBleu"></i>
+                                        <i class="fas fa-star colorBleu"></i>
+                                        <i class="fas fa-star colorGris"></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
                 </div>
             </div>
         </section>
-    </div>
-    <footer>
-        <div class="footerMenu">
-            <div class="container spaceBetween footerSpace">
-                <div class="about paddingTitleList">
-                    <div class="aboutTitle">
-                        <h4>À propos</h4>
-                    </div>
-                    <ul class="paddingList">
-                        <li>Fonctionnement du site</li>
-                        <br>
-                        <li>Conditions générales de vente</li>
-                        <br>
-                        <li>Données et confidentialité</li>
-                    </ul>
-                </div>
-                <div class="about paddingTitleList">
-                    <div class="aboutTitle">
-                        <h4>Nos hébergements</h4>
-                    </div>
-                    <ul class="paddingList">
-                        <li>Charte qualité</li>
-                        <br>
-                        <li>Soumettre votre hôtel</li>
-                    </ul>
-                </div>
-                <div class="about paddingTitleList">
-                    <div class="aboutTitle">
-                        <h4>Assistance</h4>
-                    </div>
-                    <ul class="paddingList">
-                        <li>Centre d'aide</li>
-                        <br>
-                        <li>Nous contacter</li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-    </footer>
+
 </body>
 
 </html>

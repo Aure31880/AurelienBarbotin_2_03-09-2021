@@ -38,6 +38,7 @@ table {
 body {
     font-family: 'Raleway', sans-serif;
     margin: auto;
+    margin-bottom: auto;
 }
 
 section {
@@ -46,46 +47,120 @@ section {
 
 a {
     text-decoration: none;
-    color: #0065FC
+    color: #0065FC;
 }
 
-h2, h3, h4 {
+h2 {
+    color: black;
+    font-size: 22px;
+}
+
+h3 {
+    font-size: 20px;
+}
+
+h4 {
     font-weight: 900;
+    font-size: 16px;
+    color: black;
 }
 
-input {
-    border: none
+p {
+    color: black;
 }
 
 .container {
-    padding: 40px;
+    padding-left: 40px;
+    padding-right: 40px;
 }
 
-/* HEADER SITE */
+.center-content {
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+}
 
-.spaceBetween {
+.space-around {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.space-between {
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
+.column-around {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.column-center {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.back-color-grey {
+    background: #F2F2F2;
+    border: 0.5px solid var(--input-border)
+}
+
+.padding-top {
+    padding-top: 30px;
+}
+
+.font-b {
+    font-weight: bold;
+}
+
+/* effects */
+
+.grow {
+    transition: all .2s ease-in-out;
+}
+
+.grow:hover {
+    transform: scale(1.05);
+}
+
+/* HEADER SITE */
+
+.nav-padding {
+    height: 80px;
+}
+
 .main-logo {
+    padding: 40px;
     width: 100px;
     height: auto;
 }
 
-.paddingTop {
-    padding-top: 30px;
+.top-hover-nav {
+    width: 140px;
+    height: 99px;
+}
+
+.nav {
+    margin-right: 40px;
 }
 
 .nav-bar {
-    float: right;
-    margin-top: 10px;
-    word-spacing: 70px;
+    margin-left: 70%;
 }
 
-.nav-bar a:hover {
-    color: #000000
+.nav-bar2 {}
+
+.top-hover-nav:hover {
+    border-top: 1px solid #0065FC;
+}
+
+.nav-focus:focus {
+    color: #000000;
 }
 
 /* SECTION SEARCH */
@@ -111,21 +186,10 @@ input {
     display: flex;
 }
 
-.backColor {
-    background: #F2F2F2;
-    border: 0.5px solid var(--input-border)
-}
-
-.centerIcon {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
 .iconSize {
     width: 40px;
-    height: 40px;
-    border-radius: 6px 0 0 6px;
+    height: 38px;
+    border-radius: 10px 0 0 10px;
 }
 
 .searchfield {
@@ -152,13 +216,18 @@ input {
     line-height: 25px;
     font-size: 14px;
     font-weight: 500;
-    border-radius: 0 6px 6px 0;
+    border-radius: 0 10px 10px 0;
     color: #F1F1F1;
     border: 1px solid var(--input-border);
     border-left: rgba(0, 0, 0, 0);
     background: var(--input-background);
     transition: border .3s ease;
     cursor: pointer;
+}
+
+.searchBtn:hover {
+    color: #0065FC;
+    background: #DEEBFF;
 }
 
 /* FILTERS */
@@ -174,25 +243,34 @@ input {
 
 .filterBorder {
     border: 1px solid #F2F2F2;
-    height: 40px;
+    height: 50px;
     border-radius: 30px;
-    margin-right: 20px;
+    margin-right: 30px;
 }
 
 .filterIcon {
     border-radius: 25px;
-    width: 40px;
-    height: 40px;
+    margin-left: -2px;
+    width: 50px;
+    height: 50px;
     color: #0065FC;
     background: #DEEBFF;
 }
 
 .flexText {
+    height: 50px;
     padding-left: 20px;
     padding-right: 20px;
+    border-radius: 0 25px 25px 0;
 }
 
-.filterborder:hover {
+.filterBorder:hover>.filterIcon {
+    color: #DEEBFF;
+    background: #0065FC;
+}
+
+.filterBorder:hover {
+    color: #0065FC;
     background: #DEEBFF;
 }
 
@@ -200,42 +278,157 @@ input {
 
 .info {
     display: flex;
+    align-items: center;
 }
 
-.iconInfo i {
+.iconInfo {
     color: #0065FC;
-    font-size: 12px;
-    justify-content: center;
-    align-items: center;
+    width: 20px;
+    height: 20px;
+    border: 2px solid #e0e0e0;
+    border-radius: 25px;
+    margin-right: 5px;
 }
 
 .info p {
     padding-left: 20px;
 }
 
-/* ACCOMMODATION */
+/* MAIN CONTENT*/
 
-.accommodations {
-    width: 55%;
-    height: 55%;
-    background: #F2F2F2;
-    border-radius: 10px;
-}
-
-.paddingTitle {
+.main-content {
+    flex: 2;
+    height: 650px;
     padding: 30px;
+    margin-right: 20px;
+    border-radius: 20px;
 }
 
-/* FOOTER */
-
-.footerMenu {
-    background: #F2F2F2;
+.main-title {
+    margin-left: 20px;
 }
 
-.paddingList {
-    padding-top: 20px;
+.list-item {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
 }
 
-.footerSpace {
-    padding-right: 30%;
+.item {
+    height: auto;
+    background-color: white;
+    margin: 10px;
+    padding: 1%;
+    border-radius: 20px;
 }
+
+.img-item {
+    width: 100%;
+    height: 200px;
+    border-radius: 20px 20px 0 0;
+}
+
+.details-item {
+    padding: 10px;
+}
+
+.link-more {
+    margin-left: 20px;
+}
+
+/* ASIDE */
+
+.aside {
+    flex: 1;
+    height: 650px;
+    padding: 30px;
+    margin-left: 20px;
+    border-radius: 20px;
+}
+
+.aside-title {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.item-aside {
+    height: 180px;
+    display: flex;
+    background-color: white;
+    margin: 10px;
+    padding: 1%;
+    border-radius: 20px;
+}
+
+.img-aside {
+    width: 250px;
+    height: 100%;
+    border-radius: 20px 0 0 20px;
+}
+
+.details-aside {
+    padding: 10px;
+}
+
+.fas.fa-chart-line {
+    font-size: 22px;
+}
+
+/* ACTIVITY */
+
+.activity {
+    margin-top: 50px;
+}
+
+.activity-blocs {
+    margin-top: 20px;
+    display: flex;
+}
+
+.activity-bloc1 {
+    flex: 1;
+    height: 500px;
+    margin-right: 20px;
+    display: flex;
+}
+
+.activity-bloc2 {
+    flex: 1;
+    height: 500px;
+    margin-left: 20px;
+    display: flex;
+}
+
+.item-activity {
+    width: 425px;
+    height: 100%;
+    margin-right: 40px;
+    border-radius: 20px;
+    background: white;
+    box-shadow: 5px 5px 5px 1px #F2F2F2;
+}
+
+.img-activity1 {
+    height: 90%;
+    width: 425px;
+    border-radius: 20px 20px 0 0;
+}
+
+.sub-bloc1 {
+    width: 425px;
+}
+
+.in-sub-bloc1 {
+    height: 280px;
+}
+
+.in-sub-bloc2 {
+    height: 280px;
+}
+
+.img-activity2 {
+    width: 100%;
+    height: 90%;
+}
+
+.img-activity3 {}
