@@ -47,7 +47,6 @@ section {
 
 a {
     text-decoration: none;
-    color: #0065FC;
 }
 
 h2 {
@@ -340,6 +339,16 @@ p {
 
 .details-item {
     padding: 10px;
+    width: 90%;
+    line-height: 20px;
+}
+
+.rate-star-blue {
+    color: #0065FC;
+}
+
+.rate-star-grey {
+    color: #F2F2F2;
 }
 
 .link-more {
@@ -377,11 +386,90 @@ p {
 }
 
 .details-aside {
-    padding: 10px;
+    width: 80%;
+    margin: 20px auto;
+    padding-left: 5%;
+    line-height: 2em;
 }
 
 .fas.fa-chart-line {
     font-size: 22px;
+}
+
+.img-main-content1 {
+    background-image: url("../images/small/marcus-loke-WQJvWU_HZFo-unsplash.jpg");
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 180px;
+}
+
+.img-main-content2 {
+    background-image: url("../images/small/fred-kleber-gTbaxaVLvsg-unsplash.jpg");
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 180px;
+}
+
+.img-main-content3 {
+    background-image: url("../images/small/reisetopia-B8WIgxA_PFU-unsplash.jpg");
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 180px;
+}
+
+.img-main-content4 {
+    background-image: url("../images/small/annie-spratt-Eg1qcIitAuA-unsplash.jpg");
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 180px;
+}
+
+.img-main-content5 {
+    background-image: url("../images/small/nicate-lee-kT-ZyaiwBe0-unsplash.jpg");
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 180px;
+}
+
+.img-main-content6 {
+    background-image: url("../images/small/febrian-zakaria-M6S1WvfW68A-unsplash.jpg");
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 180px;
+}
+
+.bord-img-radius {
+    border-radius: 20px 0 0 20px;
+}
+
+.img-aside1 {
+    background-image: url("../images/medium/emile-guillemot-Bj_rcSC5XfE-unsplash.jpg");
+    background-size: cover;
+    background-position: center;
+    width: 50%;
+    height: 100%;
+}
+
+.img-aside2 {
+    background-image: url("../images/medium/aw-creative-VGs8z60yT2c-unsplash.jpg");
+    background-size: cover;
+    background-position: center;
+    width: 50%;
+    height: 100%;
+}
+
+.img-aside3 {
+    background-image: url("../images/medium/febrian-zakaria-M6S1WvfW68A-unsplash.jpg");
+    background-size: cover;
+    background-position: center;
+    width: 50%;
+    height: 100%;
 }
 
 /* ACTIVITY */
