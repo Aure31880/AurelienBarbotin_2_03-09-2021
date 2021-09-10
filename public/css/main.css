@@ -19,6 +19,7 @@ body {
 
 ol, ul {
     list-style: none;
+    line-height: 2em;
 }
 
 blockquote, q {
