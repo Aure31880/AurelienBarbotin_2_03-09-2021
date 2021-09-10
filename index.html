@@ -14,23 +14,22 @@
 
     <!-- NAV BAR -->
     <header>
-        <nav class="nav-padding nav">
-            <div class="space-between">
-                <div>
-                    <img src="./public/images/Reservia@3x.png" class="main-logo" alt="Logo Reservia">
-                </div>
-
-                <div class="nav-bar center-content">
+        <nav class="nav space-between nav-mobile">
+            <div>
+                <img src="./public/images/Reservia@3x.png" class="main-logo" alt="Logo Reservia">
+            </div>
+            <div class="center-content nav-width">
+                <div class="nav-bar center-content nav-bar-mobile">
                     <div class="top-hover-nav center-content">
-                        <a href="#hebergement" class="nav-focus">Hébergements</a>
+                        <a href="#" class="nav-focus nav-color-link">Hébergements</a>
                     </div>
                     <div class="top-hover-nav center-content">
-                        <a href="#" class="nav-focus">Activités</a>
+                        <a href="#" class="nav-focus nav-color-link">Activités</a>
                     </div>
                 </div>
 
-                <div class="top-hover-nav  center-content">
-                    <a href="#" class="nav-focus">S'inscrire</a>
+                <div class="top-hover-nav center-content log-nav-mobile">
+                    <a href="#" class="nav-focus nav-color-link">S'inscrire</a>
                 </div>
             </div>
         </nav>
@@ -38,8 +37,8 @@
 
     <div class="container">
         <!-- SECTION SEARCH -->
-        <section>
-            <div class="searchTitle">
+        <section id="header">
+            <div class="search-title">
                 <h2>Trouvez votre hébergement pour des vacances de rêve</h2>
             </div>
             <br>
@@ -49,39 +48,41 @@
                 <div class="back-color-grey center-content iconSize">
                     <i class="fas fa-map-marker-alt"></i>
                 </div>
-                <input type="search" class="searchField">
-                <button type="submit" class="searchBtn">Rechercher</button>
+                <input type="search" class="search-field">
+                <button type="submit" class="search-btn">Rechercher</button>
             </div>
 
             <!-- FILTERS -->
-            <div class="filter padding-top">
+            <div id="filters" class="filter padding-top filter-mobile">
                 <div class="titleFilter">
                     <h3>Filtres</h3>
                 </div>
-                <div class="space-around">
-                    <div class="space-between filterBorder">
-                        <i class="fas fa-money-bill-wave filterIcon center-content"></i>
-                        <div class="flexText center-content">Économique</div>
+                <div class="space-around flex-block-mobile ">
+                    <div class="space-around filter-block-mobile">
+                        <div class="space-between filter-border">
+                            <i class="fas fa-money-bill-wave filter-icon center-content"></i>
+                            <div class="flex-text center-content">Économique</div>
+                        </div>
+                        <div class=" space-between filter-border ">
+                            <i class="fas fa-child filter-icon center-content"></i>
+                            <div class="flex-text center-content">Familial</div>
+                        </div>
                     </div>
-                    <div class=" space-between filterBorder ">
-                        <i class="fas fa-child filterIcon center-content"></i>
-                        <div class="flexText center-content">Familial</div>
-                    </div>
-                </div>
-                <div class="space-around">
-                    <div class="space-between filterBorder ">
-                        <i class="fas fa-heart filterIcon center-content"></i>
-                        <div class="flexText center-content">Romantique</div>
-                    </div>
-                    <div class="space-between filterBorder ">
-                        <i class="fas fa-dog filterIcon center-content"></i>
-                        <div class="flexText center-content">Animaux autorisés</div>
+                    <div class="space-around filter-block-mobile">
+                        <div class="space-between filter-border ">
+                            <i class="fas fa-heart filter-icon center-content"></i>
+                            <div class="flex-text center-content">Romantique</div>
+                        </div>
+                        <div class="space-between filter-border">
+                            <i class="fas fa-dog filter-icon center-content"></i>
+                            <div class="flex-text center-content">Animaux autorisés</div>
+                        </div>
                     </div>
                 </div>
             </div>
 
             <div class="info padding-top">
-                <div class="iconInfo center-content">
+                <div class="icon-info center-content">
                     <i class="fas fa-info"></i>
                 </div>
                 <p>Plus de 500 logements sont disponibles dans cette ville</p>
@@ -97,11 +98,11 @@
                     </div>
                     <div class="list-item">
                         <a href="">
-                            <div class="item grow">
+                            <div class="item grow border">
                                 <div class="img-main-content1 border-radius-img"></div>
                                 <div class="details-item">
-                                    <h4>Test Title</h4>
-                                    <p>Nuit à partir de 25€</p>
+                                    <h4>Auberge la Cannebière</h4>
+                                    <p class="text-item">Nuit à partir de 25€</p>
                                     <div class="rate">
                                         <i class="fas fa-star rate-star-blue"></i>
                                         <i class="fas fa-star rate-star-blue"></i>
@@ -113,11 +114,11 @@
                             </div>
                         </a>
                         <a href="">
-                            <div class="item grow">
+                            <div class="item grow border">
                                 <div class="img-main-content2 border-radius-img"></div>
                                 <div class="details-item">
-                                    <h4>Test Title</h4>
-                                    <p>Nuit à partir de 25€</p>
+                                    <h4>Hôtel du port</h4>
+                                    <p class="text-item">Nuit à partir de 52€</p>
                                     <div class="rate">
                                         <i class="fas fa-star rate-star-blue"></i>
                                         <i class="fas fa-star rate-star-blue"></i>
@@ -129,11 +130,11 @@
                             </div>
                         </a>
                         <a href="">
-                            <div class="item grow">
+                            <div class="item grow border">
                                 <div class="img-main-content3 border-radius-img"></div>
                                 <div class="details-item">
-                                    <h4>Test Title</h4>
-                                    <p>Nuit à partir de 25€</p>
+                                    <h4>Hôtel Les Mouettes</h4>
+                                    <p class="text-item">Nuit à partir de 76€</p>
                                     <div class="rate">
                                         <i class="fas fa-star rate-star-blue"></i>
                                         <i class="fas fa-star rate-star-blue"></i>
@@ -148,11 +149,11 @@
 
                     <div class="list-item item-marge">
                         <a href="">
-                            <div class="item grow">
+                            <div class="item grow border">
                                 <div class="img-main-content4 border-radius-img"></div>
                                 <div class="details-item">
-                                    <h4>Test Title</h4>
-                                    <p>Nuit à partir de 25€</p>
+                                    <h4>Hôtel de la mer</h4>
+                                    <p class="text-item">Nuit à partir de 46€</p>
                                     <div class="rate">
                                         <i class="fas fa-star rate-star-blue"></i>
                                         <i class="fas fa-star rate-star-blue"></i>
@@ -164,11 +165,11 @@
                             </div>
                         </a>
                         <a href="">
-                            <div class="item grow">
+                            <div class="item grow border">
                                 <div class="img-main-content5 border-radius-img"></div>
                                 <div class="details-item">
-                                    <h4>Test Title</h4>
-                                    <p>Nuit à partir de 25€</p>
+                                    <h4>Auberge Le Panier</h4>
+                                    <p class="text-item">Nuit à partir de 23€</p>
                                     <div class="rate">
                                         <i class="fas fa-star rate-star-blue"></i>
                                         <i class="fas fa-star rate-star-blue"></i>
@@ -180,11 +181,11 @@
                             </div>
                         </a>
                         <a href="">
-                            <div class="item grow">
+                            <div class="item grow border">
                                 <div class="img-main-content6 border-radius-img"></div>
                                 <div class="details-item">
-                                    <h4>Test Title</h4>
-                                    <p>Nuit à partir de 25€</p>
+                                    <h4>Hôtel chez Amina</h4>
+                                    <p class="text-item">Nuit à partir de 96€</p>
                                     <div class="rate">
                                         <i class="fas fa-star rate-star-blue"></i>
                                         <i class="fas fa-star rate-star-blue"></i>
@@ -209,12 +210,12 @@
                     </div>
                     <div class="list-aside column-around">
                         <a href="">
-                            <div class="item-aside grow">
-                                <div class="img-aside1 bord-img-radius"></div>
+                            <div class="item-aside grow border">
+                                <div class="img-aside1 bord-img-radius img-aside-mobile"></div>
                                 <div class="details-aside">
-                                    <h4>Test Title</h4>
-                                    <p>Nuit à partir de 25€</p>
-                                    <div class="rate">
+                                    <h4>Hôtel Le soleil du matin</h4>
+                                    <p class="text-item">Nuit à partir de 128€</p>
+                                    <div class="rate-aside">
                                         <i class="fas fa-star rate-star-blue"></i>
                                         <i class="fas fa-star rate-star-blue"></i>
                                         <i class="fas fa-star rate-star-blue"></i>
@@ -226,11 +227,11 @@
                         </a>
                         <a href="">
                             <div class="item-aside grow">
-                                <div class="img-aside2 bord-img-radius"></div>
+                                <div class="img-aside2 bord-img-radius img-aside-mobile"></div>
                                 <div class="details-aside">
-                                    <h4>Test Title</h4>
-                                    <p>Nuit à partir de 25€</p>
-                                    <div class="rate">
+                                    <h4>Au coeur de l'eau Chambres D'hôtes</h4>
+                                    <p class="text-item">Nuit à partir de 71€</p>
+                                    <div class="rate-aside">
                                         <i class="fas fa-star rate-star-blue"></i>
                                         <i class="fas fa-star rate-star-blue"></i>
                                         <i class="fas fa-star rate-star-blue"></i>
@@ -242,16 +243,16 @@
                         </a>
                         <a href="">
                             <div class="item-aside grow">
-                                <div class="img-aside3 bord-img-radius"></div>
+                                <div class="img-aside3 bord-img-radius img-aside-mobile"></div>
                                 <div class="details-aside">
-                                    <h4>Test Title</h4>
-                                    <p>Nuit à partir de 25€</p>
-                                    <div class="rate">
+                                    <h4>Hôtel Tout bleu et Blanc</h4>
+                                    <p class="text-item">Nuit à partir de 68€</p>
+                                    <div class="rate-aside">
                                         <i class="fas fa-star rate-star-blue"></i>
                                         <i class="fas fa-star rate-star-blue"></i>
                                         <i class="fas fa-star rate-star-blue"></i>
                                         <i class="fas fa-star rate-star-blue"></i>
-                                        <i class="fas fa-star rate-star-blue"></i>
+                                        <i class="fas fa-star rate-star-grey"></i>
                                     </div>
                                 </div>
                             </div>
@@ -262,28 +263,28 @@
         </section>
 
         <!-- Activities -->
-        <div class="activities">
+        <div id="activities" class="activities">
             <h3 class="font-b">Activités à Marseille</h3>
-            <div class="blocs-activities space-between">
-                <div class="list-bloc1 space-around-end ">
-                    <div class="activities-bloc1 border grow">
-                        <div class="img-activity1 border-radius-img"></div>
+            <div class="blocs-activities space-between list-bloc-mobile">
+                <div class="list-bloc1 space-around-flexend list-bloc-mobile">
+                    <div class="activities-bloc1 border grow activities-bloc-tablet">
+                        <div class="img-activity1 border-radius-img img-activity-mobile"></div>
                         <div class="title-activity">
                             <h4>Vieux Port</h4>
                         </div>
                     </div>
-                    <div class="activities-bloc2 column-between">
+                    <div class="activities-bloc2 column-between activities-bloc-tablet mobile-flex">
                         <div class="sub-bloc1 border grow">
-                            <div class="img-activity2 border-radius-img"></div>
+                            <div class="img-activity2 border-radius-img img-activity-mobile "></div>
                             <div class="title-activity">
-                                <h4>Vieux Port</h4>
+                                <h4>Fort de Pomègues</h4>
                             </div>
                         </div>
 
                         <div class="sub-bloc2 border grow">
-                            <div class="img-activity3 border-radius-img"></div>
+                            <div class="img-activity3 border-radius-img img-activity-mobile"></div>
                             <div class="title-activity">
-                                <h4>Vieux Port</h4>
+                                <h4>Îles du Frioul</h4>
                             </div>
                         </div>
                     </div>
@@ -291,25 +292,25 @@
                 </div>
 
                 <!-- BLOC 2 -->
-                <div class="list-bloc2 space-around">
-                    <div class="activities-bloc1 border grow">
-                        <div class="img-activity4 border-radius-img"></div>
+                <div class="list-bloc2 space-around-flexend list-bloc-mobile">
+                    <div class="activities-bloc1 border grow activities-bloc-tablet">
+                        <div class="img-activity4 border-radius-img img-activity-mobile"></div>
                         <div class="title-activity">
-                            <h4>Vieux Port</h4>
+                            <h4>Parc Nationnal des Calanques</h4>
                         </div>
                     </div>
-                    <div class="activities-bloc2">
+                    <div class="activities-bloc2 column-between activities-bloc-tablet mobile-flex">
                         <div class="sub-bloc1 border grow">
-                            <div class="img-activity5 border-radius-img"></div>
+                            <div class="img-activity5 border-radius-img img-activity-mobile"></div>
                             <div class="title-activity">
-                                <h4>Vieux Port</h4>
+                                <h4>Noter-Dame-de-la-Garde</h4>
                             </div>
                         </div>
-                        <div class="sub-bloc2 border grow">
-                            <div class="img-activity6 border-radius-img"></div>
 
+                        <div class="sub-bloc2 border grow">
+                            <div class="img-activity6 border-radius-img img-activity-mobile"></div>
                             <div class="title-activity">
-                                <h4>Vieux Port</h4>
+                                <h4>Parc Longchamp</h4>
                             </div>
                         </div>
                     </div>
@@ -322,37 +323,37 @@
     <!-- FOOTER -->
     <footer id="footer">
         <div class="footer-menu back-color-grey">
-            <div class="container space-between padding-list footer-space">
+            <div class="container space-between padding-list footer-space footer-mobile">
                 <div class="about padding-top">
                     <div class="about-title">
                         <h4>À propos</h4>
                     </div>
                     <ul class="padding-list">
-                        <li>Fonctionnement du site</li>
+                        <li><a href="">Fonctionnement du site</a></li>
                         <br>
-                        <li>Conditions générales de vente</li>
+                        <li><a href="">Conditions générales de vente</a></li>
                         <br>
-                        <li>Données et confidentialité</li>
+                        <li><a href="">Données et confidentialité</a></li>
                     </ul>
                 </div>
-                <div class="about paddingTitleList">
+                <div class="about">
                     <div class="about-title">
                         <h4>Nos hébergements</h4>
                     </div>
                     <ul class="padding-list">
-                        <li>Charte qualité</li>
+                        <li> <a href="">Charte qualité</a></li>
                         <br>
-                        <li>Soumettre votre hôtel</li>
+                        <li><a href="">Soumettre votre hôtel</a></li>
                     </ul>
                 </div>
-                <div class="about paddingTitleList">
+                <div class="about">
                     <div class="about-title">
                         <h4>Assistance</h4>
                     </div>
                     <ul class="padding-list">
-                        <li>Centre d'aide</li>
+                        <li><a href="">Centre d'aide</a></li>
                         <br>
-                        <li>Nous contacter</li>
+                        <li><a href="">Nous contacter</a></li>
                     </ul>
                 </div>
             </div>
