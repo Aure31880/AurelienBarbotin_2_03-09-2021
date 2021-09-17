@@ -112,6 +112,11 @@ p {
     padding-top: 30px;
 }
 
+.automarge {
+    margin-left: auto;
+    margin-right: auto;
+}
+
 .font-b {
     font-weight: bold;
 }
@@ -217,6 +222,7 @@ p {
 }
 
 .icon-mobile {
+    margin-left: -20px;
     visibility: hidden;
 }
 
@@ -733,9 +739,11 @@ p {
         }
         .title-btn-search {
             visibility: hidden;
+            margin-left: -30px;
         }
         .icon-mobile {
             margin-top: 10px;
+            margin-left: 0;
             visibility: visible;
         }
         /* FILTERS */
