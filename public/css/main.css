@@ -121,6 +121,10 @@ p {
     font-weight: bold;
 }
 
+*:focus {
+    outline: none;
+}
+
 /* effects */
 
 .grow {
@@ -195,10 +199,6 @@ p {
     border: 0.5px solid #cdd9ed25;
     border-left: rgba(0, 0, 0, 0);
     border-right: rgba(0, 0, 0, 0);
-}
-
-.search-field:hover {
-    border: 0.5px solid #cdd9ed25;
 }
 
 .search-btn {
