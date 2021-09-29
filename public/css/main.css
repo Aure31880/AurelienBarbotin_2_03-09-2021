@@ -416,7 +416,7 @@ input {
     height: 110px;
     display: flex;
     background-color: white;
-    margin: 20px;
+    margin: 20px 10px;
     padding: 1%;
     border-radius: 20px;
 }
@@ -537,6 +537,9 @@ input {
     margin-top: 20px;
     width: 100%;
 }
+.title-activity {
+    max-width: 100%;
+}
 
 .list-bloc1 {
     flex: 1;
@@ -650,9 +653,63 @@ input {
     padding-right: 30%;
 }
 
-@media screen and (max-width: 1100px) {
+@media screen and (max-width: 1340px) {
+    h3 {
+        font-size: 18px;
+    }
+    h4 {
+        font-size: 13px;
+    }
+    .item {
+        height: 145px;
+    }
+    .text-item {
+        margin-top: -1px;
+        font-size: 12px;
+    }
+    .details-item {
+        line-height: 15px;
+    }
+    .rate {
+        margin-top: 0;
+    }
+    .fas, .far {
+        font-size: 12px;
+    }
+    .item-aside {
+        height: 85px;
+    }
+    .details-aside {
+        line-height: 15px;
+        width: 155px;
+    }
+    .details-aside h4 {
+        margin-top: -5px;
+    }
+    .text-aside {
+        margin-top: 0;
+        font-size: 12px;
+    }
+    .sub-bloc2 {
+        height: 150px;
+    }
+    .img-activity-desk1 {
+        height: 380px;
+    }
+    .img-activity-desk2 {
+        height: 190px;
+    }
+    .img-activity-desk3 {
+        height: 100px;
+    }
+}
+
+@media screen and (max-width: 1099px) {
     h4 {
         font-size: 16px;
+    }
+    .text-info {
+        font-size: 15px;
     }
     .main-aside-section {
         display: block;
@@ -694,6 +751,9 @@ input {
     /* ACTIVITY RESPONSIVE */
     .activities {
         height: auto;
+    }
+    .title-activity h4{
+        font-size: 14px;
     }
     .footer-space {
         margin-left: 30px;
@@ -857,6 +917,9 @@ input {
         .icon-mobile {
             visibility: visible;
         }
+        .text-info {
+            font-size: 14px;
+        }
         /* MAIN CONTENT RESPONSIVE MOBILE */
         #hebergements {
             margin-top: 20px;
@@ -880,6 +943,9 @@ input {
             margin-right: 0;
             height: 300px;
         }
+        .details-item {
+            line-height: 20px;
+        }
         .img-size-mobile {
             height: 77%;
         }
@@ -898,8 +964,14 @@ input {
         .details-aside {
             width: 50%;
         }
+        .details-aside h4 {
+            margin-top: 0;
+        }
         .aside-title {
             padding-top: 20px;
+        }
+        .text-aside {
+            margin-top: 10px;
         }
         .rate-aside {
             margin-top: 50px;
@@ -964,6 +1036,15 @@ input {
     }
 }
 
+@media screen  and (max-width: 515px) {
+    .details-aside {
+        width: 160px;
+    }
+    .rate-aside {
+        margin-top: 40px;
+    }
+}
+
 @media screen and (max-width: 440px) {
     .item {
         height: 200px;
@@ -971,11 +1052,8 @@ input {
     .img-size-mobile {
         height: 65%;
     }
-    .details-aside {
-        width: 180px;
-    }
+
     .details-aside h4 {
-        font-size: 16px;
     }
     .rate-aside {
         margin-top: 40px;
