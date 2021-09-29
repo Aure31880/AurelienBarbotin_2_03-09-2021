@@ -851,9 +851,6 @@ input {
     .filter-item {
         margin-top: 10px;
     }
-    .filter-item {
-        max-width: auto;
-    }
     .filter-border {
         border: 1px solid #F2F2F2;
         height: 30px;
