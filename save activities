@@ -1,0 +1,62 @@
+<!-- Activities -->
+        <section>
+            <div id="activities" class="activities">
+                <h3 class="font-b">Activités à Marseille</h3>
+                <div class="blocs-activities space-between list-bloc-mobile">
+                    <div class="list-bloc1 space-around-flexend list-bloc-mobile">
+                        <article class="activities-bloc1 border grow activities-bloc-tablet">
+                            <div class="img-activity1 border-radius-img img-activity-mobile img-activity-desk1"></div>
+                            <div class="title-activity">
+                                <h4>Vieux Port</h4>
+                            </div>
+                        </article>
+                        <article class="activities-bloc2 column-between activities-bloc-tablet mobile-flex">
+                            <div class="sub-bloc1 border grow">
+                                <div class="img-activity2 border-radius-img img-activity-mobile img-activity-desk2">
+                                </div>
+                                <div class="title-activity">
+                                    <h4>Fort de Pomègues</h4>
+                                </div>
+                            </div>
+
+                            <div class="sub-bloc2 border grow">
+                                <div class="img-activity3 border-radius-img img-activity-mobile img-activity-desk3">
+                                </div>
+                                <div class="title-activity">
+                                    <h4>Îles du Frioul</h4>
+                                </div>
+                            </div>
+                        </article>
+
+                    </div>
+
+                    <!-- BLOC 2 -->
+                    <div class="list-bloc2 space-around-flexend list-bloc-mobile">
+                        <article class="activities-bloc1 border grow activities-bloc-tablet">
+                            <div class="img-activity4 border-radius-img img-activity-mobile img-activity-desk1"></div>
+                            <div class="title-activity">
+                                <h4>Parc Nationnal des Calanques</h4>
+                            </div>
+                        </article>
+                        <article class="activities-bloc2 column-between activities-bloc-tablet mobile-flex">
+                            <div class="sub-bloc1 border grow">
+                                <div class="img-activity5 border-radius-img img-activity-mobile img-activity-desk2">
+                                </div>
+                                <div class="title-activity">
+                                    <h4>Notre-Dame-de-la-Garde</h4>
+                                </div>
+                            </div>
+
+                            <div class="sub-bloc2 border grow">
+                                <div class="img-activity6 border-radius-img img-activity-mobile img-activity-desk3">
+                                </div>
+                                <div class="title-activity">
+                                    <h4>Parc Longchamp</h4>
+                                </div>
+                            </div>
+                        </article>
+
+                    </div>
+                </div>
+            </div>
+        </section>

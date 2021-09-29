@@ -318,7 +318,9 @@ input {
 .info-icon-size {
     font-size: 20px;
 }
-
+.text-info {
+    font-size: 14px;
+}
 .info p {
     padding-left: 20px;
 }
@@ -556,6 +558,10 @@ input {
     height: 100%;
     margin-right: 20px;
 }
+.img-activity {
+    width: 100%;
+    height: 500px;
+}
 
 .activities-bloc2 {
     width: 100%;
@@ -720,7 +726,7 @@ input {
         margin-top: 20px;
     }
     .sub-bloc2 {
-        height: 150px;
+        height: 130px;
     }
     .title-activity {
         word-break:keep-all;
@@ -729,13 +735,13 @@ input {
         font-size: 13px;
     }
     .img-activity-desk1 {
-        height: 380px;
+        height: 300px;
     }
     .img-activity-desk2 {
-        height: 190px;
+        height: 130px;
     }
     .img-activity-desk3 {
-        height: 100px;
+        height: 90px;
     }
 }
 
@@ -782,12 +788,11 @@ input {
         margin-top: 70px;
     }
     /* ACTIVITY RESPONSIVE */
-    .activities {
-        height: auto;
-    }
+   
     .title-activity h4{
-        font-size: 14px;
+        font-size: 12px;
     }
+    
     .footer-space {
         margin-left: 30px;
     }
@@ -796,6 +801,31 @@ input {
 @media screen and (max-width: 1050px) {
     .item {
         height: 180px;
+    }
+    .list-bloc2 {
+        margin-left: 0;
+    }
+    .list-bloc-mobile {
+        display: block;
+    }
+    .activities-bloc-tablet {
+        height: auto;
+        margin-left: 0;
+    }
+    .mobile-flex {
+        margin-top: 40px;
+        display: flex;
+    }
+    .img-activity-mobile {
+        height: 300px;
+    }
+    .sub-bloc1 {
+        flex: 1;
+        margin-right: 20px;
+    }
+    .sub-bloc2 {
+        flex: 1;
+        margin-left: 20px;
     }
 }
 
@@ -853,31 +883,7 @@ input {
         margin-right: 0px;
         padding: 30px;
     }
-    .list-bloc2 {
-        margin-left: 0;
-    }
-    .list-bloc-mobile {
-        display: block;
-    }
-    .activities-bloc-tablet {
-        height: auto;
-        margin-left: 0;
-    }
-    .mobile-flex {
-        margin-top: 40px;
-        display: flex;
-    }
-    .img-activity-mobile {
-        height: 300px;
-    }
-    .sub-bloc1 {
-        flex: 1;
-        margin-right: 20px;
-    }
-    .sub-bloc2 {
-        flex: 1;
-        margin-left: 20px;
-    }
+    
     .footer-mobile {
         padding-right: 20px;
     }
