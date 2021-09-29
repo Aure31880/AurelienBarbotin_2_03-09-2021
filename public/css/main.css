@@ -525,14 +525,13 @@ input {
 }
 
 /* ACTIVITY */
-
+.activities-title {
+    margin-top: 40px;
+    margin-left: 40px;
+}
 #activities {
     margin-left: 40px;
     margin-right: 40px;
-}
-
-.activities {
-    margin-top: 50px;
 }
 
 .blocs-activities {
