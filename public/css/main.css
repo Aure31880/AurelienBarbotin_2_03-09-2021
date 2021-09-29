@@ -430,7 +430,7 @@ input {
 .details-aside {
     margin-top: 10px;
     padding-left: 10px;
-    width: 200px;
+    width: 160px;
 }
 
 .text-aside {
@@ -582,7 +582,7 @@ input {
 }
 
 .title-activity {
-    padding: 20px;
+    padding: 15px;
 }
 
 .img-activity1 {
@@ -660,6 +660,32 @@ input {
     h4 {
         font-size: 13px;
     }
+    .filter-border {
+        border: 1px solid #F2F2F2;
+        height: 40px;
+        border-radius: 30px;
+        margin-right: 30px;
+    }
+    
+    .filter-icon {
+        border-radius: 25px;
+        margin-left: -2px;
+        width: 40px;
+        height: 40px;
+        color: #0065FC;
+        background: #DEEBFF;
+    }
+    
+    .flex-text {
+        height: 40px;
+        font-size: 15px;
+        padding-left: 20px;
+        padding-right: 20px;
+        border-radius: 0 25px 25px 0;
+    }
+    .text-info {
+        font-size: 14px;
+    }
     .item {
         height: 145px;
     }
@@ -681,7 +707,7 @@ input {
     }
     .details-aside {
         line-height: 15px;
-        width: 155px;
+        width: 150px;
     }
     .details-aside h4 {
         margin-top: -5px;
@@ -690,8 +716,17 @@ input {
         margin-top: 0;
         font-size: 12px;
     }
+    .rate-aside {
+        margin-top: 20px;
+    }
     .sub-bloc2 {
         height: 150px;
+    }
+    .title-activity {
+        word-break:keep-all;
+    }
+    .title-activity h4{
+        font-size: 13px;
     }
     .img-activity-desk1 {
         height: 380px;
@@ -708,9 +743,7 @@ input {
     h4 {
         font-size: 16px;
     }
-    .text-info {
-        font-size: 15px;
-    }
+
     .main-aside-section {
         display: block;
     }
