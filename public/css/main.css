@@ -162,11 +162,12 @@ p {
 
 .nav-color-link {
     color: #000000;
+    font-weight: 500;
 }
 
 .nav-color-link:hover {
     color: #0065FC;
-    font-weight: bolder;
+    font-weight: 500;
 }
 
 .nav-color-link-blue {
@@ -197,7 +198,7 @@ p {
 }
 
 .iconSize {
-    width: 40px;
+    min-width: 40px;
     height: 38px;
     border-radius: 10px 0 0 10px;
 }
@@ -210,7 +211,6 @@ input::placeholder {
 
 input {
     padding-left: 20px;
-    width: 160px;
     font-family: 'Raleway', sans-serif;
 }
 
@@ -650,7 +650,7 @@ input {
     padding-right: 30%;
 }
 
-@media screen and (max-width: 1360px) {
+@media screen and (max-width: 1100px) {
     h4 {
         font-size: 16px;
     }
